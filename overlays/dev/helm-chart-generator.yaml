@@ -1,6 +1,7 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
-
+metadata:
+  name: myapp-dev-generator   # <-- Required for Kustomize
 helmCharts:
   - name: myapp
     releaseName: myapp
