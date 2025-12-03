@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/balusena/argocd-helm-kustomize-Gen.git
+    repoURL: https://github.com/balusena/argocd-helm-kustomize-gen.git
     targetRevision: HEAD
     path: overlays/prod
   destination:
